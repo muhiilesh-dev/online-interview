@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Meeting Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-image: url('BG.png'); /* use your local image filename here */
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.9); /* transparent white overlay */
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: #000000;
+    }
+    p {
+      font-size: 16px;
+      color: #333333;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Join Our Online Meeting</h1>
+    <p>Welcome! Please use the meeting window below to join.</p>
+
+    <iframe id="meeting" src="https://meet.jit.si/YourInterviewRoom" allow="camera; microphone; fullscreen; display-capture"></iframe>
+  </div>
+</body>
+</html>
